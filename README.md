@@ -1,34 +1,91 @@
-# SecureZip: Encrypted File Compression Tool
+# SecureZip: Multi-File Encrypted Compression Tool
 
 ## Overview
-SecureZip is a Python desktop application for secure file compression and encryption, creating custom .seczip archives with robust security features.
+SecureZip is an advanced Python desktop application designed for secure, multi-file compression and encryption. Create robust, encrypted archives with multiple files using a custom .seczip extension.
 
-## Features
-- 🔒 Custom encryption with .seczip extension
-- 📁 File compression and decryption
-- 🖥️ User-friendly GUI with progress tracking
-- 🔑 Secure key management system
-- 💻 Cross-platform desktop application
+## 🌟 Key Features
+- 📂 Multi-file selection and compression
+- 🔒 Custom .seczip encryption
+- 🖥️ Intuitive graphical user interface
+- 🔑 Secure key management
+- 📊 Progress tracking
+- 💻 Cross-platform compatibility
 
-## Security Architecture
-- Implements Fernet symmetric encryption
-- AES-256 bit encryption standard
-- Automatic key generation and management
-- Secure file handling workflow
+## Technical Specifications
+- **Language**: Python 3.8+
+- **Encryption**: Fernet (AES-256)
+- **GUI**: Tkinter
+- **Libraries**: 
+  - cryptography
+  - zipfile
 
-## Technical Requirements
+## 🚀 Installation
+
+### Prerequisites
 - Python 3.8+
-- cryptography library
-- tkinter
-- Minimal system resources
+- pip package manager
 
-## Installation
+### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/securezip.git
+git clone https://github.com/chadparker/securezip.git
+
+# Navigate to project directory
+cd securezip
 
 # Install dependencies
 pip install cryptography
+```
 
-# Run the application
-python secZip.py
+## 🛠 Usage
+
+### Compression Workflow
+1. Launch the application
+2. Click "Select Files to Compress"
+3. Choose multiple files
+4. Review selected files in list
+5. Remove files if needed
+6. Click "Compress Selected Files"
+7. Choose save location
+8. Encrypted .seczip created!
+
+### Decryption Workflow
+1. Click "Select File to Decrypt"
+2. Choose .seczip file
+3. Select destination folder
+4. Decrypt and extract files
+
+## 🔒 Security Notes
+- Encryption key is automatically generated
+- Store encryption key securely
+- Key loss means unrecoverable files
+
+## 🛡️ Security Features
+- AES-256 bit encryption
+- Automatic key management
+- Single encrypted archive for multiple files
+- Secure file handling
+
+## Potential Improvements
+- [ ] Cloud key backup
+- [ ] Enhanced logging
+- [ ] Password-based key generation
+- [ ] File integrity verification
+
+## ⚠️ Warnings
+- Keep encryption key private
+- Do not share .seczip files without key
+- Verify file integrity after transfer
+
+## Contributing
+1. Fork repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Create pull request
+
+## License
+MIT License
+
+## 👤 Author
+Chad Parker
