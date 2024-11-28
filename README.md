@@ -31,4 +31,4 @@ git clone https://github.com/yourusername/securezip.git
 pip install cryptography
 
 # Run the application
-python secure_compressor.py
+python secZip.py
