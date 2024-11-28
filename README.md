@@ -28,7 +28,7 @@ SecureZip is an advanced Python desktop application designed for secure, multi-f
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/chadparker/securezip.git
+git clone https://github.com/SecureCoderX/securezip.git
 
 # Navigate to project directory
 cd securezip
