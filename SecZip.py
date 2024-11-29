@@ -10,6 +10,7 @@ class SecureCompressorApp:
         self.master = master
         master.title("Secure Multi-File Compressor")
         master.geometry("450x400")
+        master.resizable(False, False)
 
         # Key management
         self.key_file = 'encryption_key.key'
